@@ -1,0 +1,58 @@
+/* TaskForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #333;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #ff5722;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Optional: Add a container style to center the form */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Optional: Add a title style */
+  h1 {
+    color: #007bff;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
